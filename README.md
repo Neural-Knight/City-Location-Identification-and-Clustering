@@ -50,8 +50,7 @@ Install the required packages using pip:
     ```
 
 # 🚀 **How to Run the Project**  
-# -------------------------
-
+----------------------
 1. **🔗 Clone the Repository:**
    
     ```bash
