@@ -44,8 +44,10 @@ Make sure you have Python 3.x installed. The project depends on the following pa
 - [Matplotlib](https://matplotlib.org/) (for plotting) 📉
 - Jupyter Notebook 📓
 
-pip install pillow numpy matplotlib
-```
+Install the required packages using pip:
+   ```bash
+    pip install pillow numpy matplotlib
+    ```
 
 🚀 **How to Run the Project**  
 -------------------------
