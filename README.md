@@ -54,7 +54,7 @@ Install the required packages using pip:
 
 1. **🔗 Clone the Repository:**
    
-   ```bash
+   ```
    git clone https://github.com/your-username/your-repository.git
    ```
 
@@ -73,7 +73,7 @@ Install the required packages using pip:
 4. **▶️ Run the Notebook Cells:**  
    Execute the cells sequentially to perform clustering on each image and view the corresponding visualizations.
 
----
+-------------------------
 
 📝 **Code Breakdown**  
 ---------------------
