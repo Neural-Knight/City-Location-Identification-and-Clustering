@@ -3,7 +3,6 @@
 This project uses satellite images of night-time city clusters to group illuminated areas into distinct clusters. It implements the K-means clustering algorithm from scratch in a Jupyter Notebook to segment the cities based on the brightness patterns in the images.
 
 ## 📂 Repository Structure
-.
 ├── 1.png<br>
 ├── 2.png<br>
 ├── 3.png<br>
