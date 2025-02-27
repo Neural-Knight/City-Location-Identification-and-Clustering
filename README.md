@@ -4,10 +4,10 @@ This project uses satellite images of night-time city clusters to group illumina
 
 ## 📂 Repository Structure
 .
-├── 1.png
-├── 2.png
-├── 3.png
-├── 4.png
+├── 1.png<br>
+├── 2.png<br>
+├── 3.png<br>
+├── 4.png<br>
 └── city_clustering.ipynb
 
 - **🖼️ Images:** The folder contains four satellite images (`1.png`, `2.png`, `3.png`, and `4.png`) representing different city clusters.
