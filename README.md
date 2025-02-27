@@ -45,18 +45,18 @@ Make sure you have Python 3.x installed. The project depends on the following pa
 - Jupyter Notebook 📓
 
 Install the required packages using pip:
-   ```bash
+    ```bash
     pip install pillow numpy matplotlib
     ```
 
-🚀 **How to Run the Project**  
--------------------------
+# 🚀 **How to Run the Project**  
+# -------------------------
 
 1. **🔗 Clone the Repository:**
    
-   ```bash
-   git clone https://github.com/your-username/your-repository.git
-   ```
+    ```bash
+    git clone https://github.com/your-username/your-repository.git
+    ```
 
 2. **📁 Navigate to the Project Directory:**
    
