@@ -44,48 +44,51 @@ Make sure you have Python 3.x installed. The project depends on the following pa
 - [Matplotlib](https://matplotlib.org/) (for plotting) 📉
 - Jupyter Notebook 📓
 
-Install the required packages using pip:
-
-```bash
 pip install pillow numpy matplotlib
+```
 
-🚀 **How to Run the Project**
+🚀 **How to Run the Project**  
 -------------------------
 
 1. **🔗 Clone the Repository:**
-
+   
    ```bash
    git clone https://github.com/your-username/your-repository.git
+   ```
 
 2. **📁 Navigate to the Project Directory:**
-
-    ```bash
-    cd your-repository
+   
+   ```bash
+   cd your-repository
+   ```
 
 3. **💻 Launch the Jupyter Notebook:**
+   
+   ```bash
+   jupyter notebook city_clustering.ipynb
+   ```
 
-    ```bash
-    jupyter notebook city_clustering.ipynb
+4. **▶️ Run the Notebook Cells:**  
+   Execute the cells sequentially to perform clustering on each image and view the corresponding visualizations.
 
-4. **▶️ Run the Notebook Cells:**
-Execute the cells sequentially to perform clustering on each image and view the corresponding visualizations.
+---
 
-📝 **Code Breakdown**
+📝 **Code Breakdown**  
 ---------------------
 
-*   **🖼️ Image Loading & Preprocessing:**  
-    The notebook loads each satellite image and extracts its grayscale representation by selecting one of the color channels. It then identifies the light points (pixels with values greater than 0) for clustering.
+* **🖼️ Image Loading & Preprocessing:**  
+  The notebook loads each satellite image and extracts its grayscale representation by selecting one of the color channels. It then identifies the light points (pixels with values greater than 0) for clustering.
     
-*   **🧮 K-means Clustering:**  
-    The `k_means_clustering` function implements the clustering algorithm:
+* **🧮 K-means Clustering:**  
+  The `k_means_clustering` function implements the clustering algorithm:
     
-    *   **⚙️ Initialization:** Random centroids are chosen from the available light points.
-    *   **🎯 Assignment:** Each point is assigned to the nearest centroid.
-    *   **🔄 Update:** Centroids are updated based on the mean of the assigned points.
-    *   **✅ Convergence:** The algorithm stops once the centroids stabilize.
+  * **⚙️ Initialization:** Random centroids are chosen from the available light points.
+  * **🎯 Assignment:** Each point is assigned to the nearest centroid.
+  * **🔄 Update:** Centroids are updated based on the mean of the assigned points.
+  * **✅ Convergence:** The algorithm stops once the centroids stabilize.
 
-*   **📈 Elbow Method & Visualization:**  
-    The `elbow_method` function computes the WCSS for different values of `k` to help decide the optimal number of clusters. The `cluster_plot` and `distance` functions then plot the clusters along with centroid markers and display the distances between them.
+* **📈 Elbow Method & Visualization:**  
+  The `elbow_method` function computes the WCSS for different values of `k` to help decide the optimal number of clusters. The `cluster_plot` and `distance` functions then plot the clusters along with centroid markers and display the distances between them.
 
 
 
